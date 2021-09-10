@@ -67,7 +67,6 @@ router.delete("/delete/:name", async (req, res) => {
     res.json({ msg: "error occured" });
   }
 });
-
 router.get("/all", async (req, res) => {
   try {
     const mentoruser = await Mentor.find({});
