@@ -4,5 +4,4 @@ const User = mongoose.model("users", {
   age: Number,
   contact: String,
 });
-
 module.exports = User;
