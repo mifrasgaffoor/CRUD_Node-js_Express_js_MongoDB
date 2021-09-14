@@ -2,6 +2,8 @@ const express = require("express");
 const Mentor = require("../models/mentor");
 const router = express.Router();
 
+
+
 router.get("/", (req, res) => {
   res.send("This is mentor api");
 });
