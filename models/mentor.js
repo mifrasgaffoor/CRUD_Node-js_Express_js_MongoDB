@@ -1,5 +1,4 @@
 const mongoose = require("mongoose");
-
 const Mentor = mongoose.model("mentors", {
   name: {
     type: String,
